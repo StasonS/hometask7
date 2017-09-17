@@ -12,7 +12,7 @@ public class Company {
 
     List<Store> stores = new ArrayList<>();
     double moneyBalance = 0;
-    
+
 //    сохраняет всю информацию компании
     void save(String pathToJsonFile) throws IOException {
         FileWriter writer = new FileWriter(pathToJsonFile);

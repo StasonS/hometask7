@@ -1,3 +1,5 @@
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 
 /**
@@ -5,6 +7,7 @@ import java.util.Date;
  */
 public class Fruit {
     public long shelfLife;
+//    @JSONField(format="MM/dd/yyyy")
     public Date deliveryDate;
     public double price;
     public Type type;

@@ -13,7 +13,8 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-        test4();
+        test1();
+//        test4();
     }
 
     public static void test1() throws IOException {
