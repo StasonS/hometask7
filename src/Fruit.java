@@ -1,12 +1,9 @@
-package solution1;
-
 import java.util.Date;
 
 /**
- * Created by user on 16.09.17.
+ * Created by user on 17.09.17.
  */
 public class Fruit {
-
     public long shelfLife;
     public Date deliveryDate;
     public double price;

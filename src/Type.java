@@ -1,5 +1,3 @@
-package solution1;
-
 /**
  * Created by user on 17.09.17.
  */
