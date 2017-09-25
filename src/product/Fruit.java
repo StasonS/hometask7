@@ -1,4 +1,6 @@
-import com.alibaba.fastjson.annotation.JSONField;
+package product;
+
+import product.Type;
 
 import java.util.Date;
 

@@ -1,3 +1,5 @@
+package product;
+
 /**
  * Created by user on 17.09.17.
  */

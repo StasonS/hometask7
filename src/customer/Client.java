@@ -1,3 +1,7 @@
+package customer;
+
+import product.Type;
+
 /**
  * Created by user on 17.09.17.
  */

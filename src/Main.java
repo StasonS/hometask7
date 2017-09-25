@@ -1,10 +1,10 @@
-import com.alibaba.fastjson.JSON;
+import business.Store;
+import product.Fruit;
+import product.Type;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by user on 17.09.17.
@@ -73,13 +73,13 @@ public class Main {
 
     public static void test4() throws IOException {
         Store store = new Store();
-//        List<Client> clients1 = new ArrayList<>();
+//        List<customer.Client> clients1 = new ArrayList<>();
 //
-//        Client c = new Client("Billy", Type.Apple, 2);
+//        customer.Client c = new customer.Client("Billy", product.Type.Apple, 2);
 //        clients1.add(c);
-//        clients1.add(new Client("Bob", Type.Apple, 2));
-//        clients1.add(new Client("Bella", Type.Cherry, 1));
-//        clients1.add(new Client("Sem", Type.Peach, 3));
+//        clients1.add(new customer.Client("Bob", product.Type.Apple, 2));
+//        clients1.add(new customer.Client("Bella", product.Type.Cherry, 1));
+//        clients1.add(new customer.Client("Sem", product.Type.Peach, 3));
 //
         store.fruits.addAll(generateFruits(3, 4, 5, 6, 1,
                 5, 7, 4, 8, 3));
